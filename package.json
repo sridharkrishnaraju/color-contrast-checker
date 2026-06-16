@@ -1,0 +1,23 @@
+{
+  "name": "@sgbp/contrast-checker",
+  "version": "1.0.0",
+  "description": "Framework-agnostic WCAG 2.2 color contrast checker Web Component. Zero dependencies. Check AA/AAA pass for any foreground/background colour.",
+  "type": "module",
+  "main": "tool/contrast-checker.js",
+  "module": "tool/contrast-checker.js",
+  "unpkg": "tool/contrast-checker.js",
+  "files": ["tool/contrast-checker.js", "README.md"],
+  "keywords": [
+    "color-contrast-checker",
+    "wcag",
+    "accessibility",
+    "a11y",
+    "contrast-ratio",
+    "web-component",
+    "custom-element"
+  ],
+  "homepage": "https://sgbp.tech",
+  "repository": { "type": "git", "url": "git+https://github.com/sridharkrishnaraju/color-contrast-checker.git" },
+  "author": "SGBP — Singapore Build Partners (https://sgbp.tech)",
+  "license": "MIT"
+}
