@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Contrast Checker — free WCAG tool | SGBP</title>
+  <meta name="description" content="Free WCAG 2.2 color contrast checker. Check AA/AAA pass for any foreground and background colour. Framework-agnostic Web Component, zero dependencies.">
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 720px;
+           margin: 0 auto; padding: 40px 20px; color: #1a1a1a; line-height: 1.6; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    .sub { color: #666; margin-top: 0; }
+    .demo { margin: 28px 0; display: flex; justify-content: center; }
+    h2 { font-size: 19px; margin-top: 34px; }
+    pre { background: #f6f8fa; border: 1px solid #eaecef; border-radius: 8px; padding: 14px;
+          overflow-x: auto; font-size: 13px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    a { color: #0b66c2; }
+    footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid #eee; color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Color Contrast Checker</h1>
+  <p class="sub">Free WCAG 2.2 contrast checker — drop-in Web Component, zero dependencies.</p>
+
+  <div class="demo">
+    <contrast-checker foreground="#717171" background="#ffffff"></contrast-checker>
+  </div>
+
+  <h2>How to use it</h2>
+  <p>Add the script, then use the element anywhere — plain HTML, React, Vue, Svelte or Astro:</p>
+  <pre><code>&lt;script src="contrast-checker.js"&gt;&lt;/script&gt;
+&lt;contrast-checker foreground="#1a1a1a" background="#ffffff"&gt;&lt;/contrast-checker&gt;</code></pre>
+
+  <h2>Why contrast matters</h2>
+  <p>WCAG 2.2 requires a contrast ratio of at least <strong>4.5:1</strong> for normal text and
+  <strong>3:1</strong> for large text (AA). Low-contrast text is the single most common
+  accessibility failure on small-business websites.</p>
+
+  <footer>
+    Built and maintained by <a href="https://sgbp.tech">SGBP — Singapore Build Partners</a>.
+    MIT licensed · contributions welcome.
+  </footer>
+
+  <script src="contrast-checker.js"></script>
+</body>
+</html>
