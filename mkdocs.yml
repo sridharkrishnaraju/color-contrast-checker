@@ -1,0 +1,8 @@
+site_name: Color Contrast Checker
+site_description: Free WCAG 2.2 color contrast checker — docs, API and usage guide.
+theme:
+  name: readthedocs
+nav:
+  - Overview: index.md
+  - Usage & API: usage.md
+  - Accessibility guide: accessibility.md
